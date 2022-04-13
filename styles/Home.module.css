@@ -122,6 +122,15 @@
   justify-content: center;
   align-items: center;
 }
+
+
+.bgCovid{
+  min-height: 100vh;
+  background-color: #bef264;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
 .box{
   width: 700px;
   background-color:#65a30d ;
@@ -153,4 +162,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 8px 16px;
+}
+
+.itemGrid{
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #dcfce7;
+  border: 1px solid gray;
+  margin: 20px;
 }
